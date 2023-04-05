@@ -1,0 +1,57 @@
+
+body{
+    margin: 0;
+
+}
+.display{
+    height: 50px;
+    background: black;
+    color: white;
+    text-align: right;
+}
+.display p{
+    margin-right: 10px;
+}
+.main{
+    margin-left: 40%;
+    margin-top: 10%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+}
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+}
+.numbers button{
+    padding: 20px;
+    background: lightgray;
+    cursor: pointer;
+    width: 80px;
+}
+.numbers button:hover{
+    background: gray;
+}
+.operation{
+    display: flex;
+    flex-direction: column;
+}
+.operation button{
+    padding: 22px;
+    color: white;
+    background: darkorange;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.operation button:hover{
+    background: coral;
+}
+.clear{
+    height: 40px;
+    background: lightgray;
+    border: 1px solid black;
+    cursor: pointer;
+}
